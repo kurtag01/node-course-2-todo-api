@@ -24,12 +24,6 @@ db.collection('Users').findOneAndDelete({_id: new ObjectID('5a8734cc8bc9a5332ccf
   console.log(result);
 });
 
-db.collection('Users').insertOne({
-  FirstName: "Kurt",
-  LastName: "Schumaker",
-  Age: 39,
-  Location: "Stuttgart, Germany"
-})
 
   //db.close();
 });
